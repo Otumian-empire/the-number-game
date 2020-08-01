@@ -1,31 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <time.h>
-
-
-int genRandNum(int minLimit, int maxLimit)
-{
-    srand(time(NULL));
-
-    return (rand() % maxLimit) + minLimit;
-}
-
 
 int main()
 {
-    system("clear");
-    
-    printf("loading");
-    
-    for (int i = 0; i < 5; i++)
-    {
-        printf(" .");
-        sleep(1);
-    }
-    
-    sleep(1);
-    system("clear");
+    system("clear");    
     sleep(1);
     
     
@@ -79,4 +58,3 @@ int main()
 
     return 0;
 }
-
